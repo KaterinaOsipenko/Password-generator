@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js'></script>
+
+    <title>Generator</title>
+</head>
+
+<body>
+    <div class="back">
+        <span class="password"></span>
+        <button class="copy"> copy</button>
+    </div>
+    <iframe name="votar" style="display:none;"></iframe>
+    <form class="form" name="form" target="votar">
+        <p>Enter the length of your password:</p>
+        <input type="range" name="length" value="1" placeholder="Enter the number" min="1" step="1" max="20"
+            class="slider" id="range">
+        <span>Length of the password: <span id="demo"></span></span>
+        <p>UpperCase
+            <input type="checkbox" id='checker' name="upperCase" class="upperCase" checked>
+        </p>
+
+        <p>LawerCase
+            <input type="checkbox" id='checker' name="lawerCase" class="lawerCase" checked>
+        </p>
+
+        <p>Number
+            <input type="checkbox" id='checker' name="number" class="number" checked>
+        </p>
+        <button class="generate">Generate password</button>
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

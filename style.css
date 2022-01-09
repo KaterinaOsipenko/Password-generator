@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'M PLUS 1 Code';
+    src: local('M PLUS 1 Code Thin'), local('M-PLUS-1-Code-Thin'),
+        url('MPLUS1Code-Thin.woff2') format('woff2'),
+        url('MPLUS1Code-Thin.woff') format('woff'),
+        url('MPLUS1Code-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
