@@ -97,9 +97,68 @@ input[type="checkbox"] {
     color: white;
 }
 
- 
-
 button:hover{
     
     letter-spacing: 0.25rem;
+}
+
+@media screen and (max-width: 1024px) { 
+    .back {
+       width: 24rem;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .back {
+       width: 25rem;
+    }
+
+    html {
+        font-size: 58%;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .back {
+       width: 25rem;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .form {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .back {
+       width: 80%;
+       left: 13%;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .form {
+        width: 80%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 320px) { 
+.back {
+    margin: 0;
+    top: 25%;
+    left: 13%;
+    width: 80%;
+}
+
+.form {
+    top: 35%;
+    left: 10%; 
+    width: 80%;
+}
 }
